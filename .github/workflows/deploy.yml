@@ -32,7 +32,7 @@ jobs:
 
       - name: Convert notebook to HTML
         run: |
-          jupyter nbconvert --to html "Physics Cup – TalTech 2026 – Problem 3.ipynb"
+          jupyter nbconvert --to html "Physics Cup–TalTech 2026–Problem 3.ipynb"
           # Rename the output to index.html so GitHub Pages serves it as the homepage
           mv "Physics Cup – TalTech 2026 – Problem 3.html" index.html
 
